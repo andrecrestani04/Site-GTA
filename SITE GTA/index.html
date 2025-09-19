@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA SAN ANDREAS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GTA San Andreas Fan Site</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="pg">
-        <span class="border border-primary"></span>
-        <h1>GTA SAN ANDREAS</h1>
-    </header>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">San Andreas</div>
+    <nav id="menu">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#historia">História</a></li>
+        <li><a href="#personagens">Personagens</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#downloads">Downloads</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <h1>GTA San Andreas</h1>
+      <p>Ah shit, here we go again</p>
+      <a href="#historia" class="btn">Explorar</a>
+    </div>
+  </section>
+
+  <!-- História -->
+  <section id="historia" class="section">
+    <h2>História</h2>
+    <p>San Andreas conta a jornada de CJ em busca de vingança, respeito e reconexão com sua família e sua cidade natal, Los Santos.</p>
+  </section>
+
+  <!-- Personagens -->
+  <section id="personagens" class="section dark">
+    <h2>Personagens</h2>
+    <div class="cards">
+      <div class="card">CJ</div>
+      <div class="card">Big Smoke</div>
+      <div class="card">Ryder</div>
+      <div class="card">Sweet</div>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="https://wallpapers.com/images/thumbnail/gta-iphone-san-andreas-logo-1a4rpeyyzhjhorzy.webp" alt="logo san Andreas" width="130" height="240">
+      <img src="https://static.wikia.nocookie.net/gta/images/d/d4/CJ-GTASA-230px.png/revision/latest?cb=20141212032649&path-prefix=pt" alt="CJ" width="140" height="240">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjlsjtEsV_TrPBvUxPVP3_wYL0zTiOrBFrBw&s" alt="big smoke" width="220" height="240">
+    </div>
+  </section>
+
+  <!-- Downloads -->
+  <section id="downloads" class="section dark">
+    <h2>Downloads</h2>
+    <ul>
+      <li><a href="#">Wallpapers</a></li>
+      <li><a href="#">Mods</a></li>
+      <li><a href="#">Trilha Sonora</a></li>
+    </ul>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Email" required>
+      <textarea placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Fan Site inspirado em GTA San Andreas - © 2025</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
