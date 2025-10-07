@@ -31,3 +31,17 @@ const revealOnScroll = () => {
 
 window.addEventListener('scroll', revealOnScroll);
 revealOnScroll();
+
+
+
+// Mostra automaticamente o pop-up após 3 segundos
+window.onload = function() {
+  setTimeout(() => {
+    document.getElementById("popup").style.display = "flex";
+  }, 3000); // 3000 ms = 3 segundos
+};
+
+// Fecha o pop-up
+function fecharPopup() {
+  document.getElementById("popup").style.display = "none";
+}
